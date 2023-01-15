@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<head>
+
+</head>
+<body>
+	<script>
+	function Βιογραφία() {
+	  document.getElementById("Βιογραφία").style.display = "block";
+	  
+	  document.getElementById("Φωτογραφίες").style.display = "none";
+	  document.getElementById("Έργα").style.display = "none";
+	  document.getElementById("Σύνδεσμοι").style.display = "none";
+	  document.getElementById("Διαχείριση").style.display = "none";
+	  document.getElementById("arxbio").style.display = "none";
+	  document.getElementById("1911").style.display = "block";
+	  document.getElementById("1979").style.display = "block";
+	  document.getElementById("arxphoto").style.display = "none";
+	  document.getElementById("photo1").style.display = "none";
+	  document.getElementById("photo2").style.display = "none";
+	  document.getElementById("arxerga").style.display = "none";
+	  document.getElementById("ergo1").style.display = "none";
+	  document.getElementById("ergo2").style.display = "none";
+	  document.getElementById("ergo3").style.display = "none";
+	  document.getElementById("ergo4").style.display = "none";
+	}
+	function Φωτογραφίες() {
+	  document.getElementById("Φωτογραφίες").style.display = "block";
+
+	  document.getElementById("Βιογραφία").style.display = "none";
+	  document.getElementById("Έργα").style.display = "none";
+	  document.getElementById("Σύνδεσμοι").style.display = "none";
+	  document.getElementById("Διαχείριση").style.display = "none";
+	  document.getElementById("arxbio").style.display = "none";
+	  document.getElementById("1911").style.display = "none";
+	  document.getElementById("1979").style.display = "none";
+	  document.getElementById("arxphoto").style.display = "none";
+	  document.getElementById("photo1").style.display = "block";
+	  document.getElementById("photo2").style.display = "block";
+	  document.getElementById("arxerga").style.display = "none";
+	  document.getElementById("ergo1").style.display = "none";
+	  document.getElementById("ergo2").style.display = "none";
+	  document.getElementById("ergo3").style.display = "none";
+	  document.getElementById("ergo4").style.display = "none";
+	}	
+	function Έργα() {
+	  document.getElementById("Έργα").style.display = "block";
+
+	  document.getElementById("Βιογραφία").style.display = "none";
+	  document.getElementById("Φωτογραφίες").style.display = "none";
+	  document.getElementById("Σύνδεσμοι").style.display = "none";
+	  document.getElementById("Διαχείριση").style.display = "none";
+	  document.getElementById("arxbio").style.display = "none";
+	  document.getElementById("1911").style.display = "none";
+	  document.getElementById("1979").style.display = "none";
+	  document.getElementById("arxphoto").style.display = "none";
+	  document.getElementById("photo1").style.display = "none";
+	  document.getElementById("photo2").style.display = "none";
+	  document.getElementById("arxerga").style.display = "none";
+	  document.getElementById("ergo1").style.display = "block";
+	  document.getElementById("ergo2").style.display = "block";
+	  document.getElementById("ergo3").style.display = "block";
+	  document.getElementById("ergo4").style.display = "block";
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "flex";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "none";
+	}	
+	function Σύνδεσμοι() {
+	  document.getElementById("Σύνδεσμοι").style.display = "block";
+
+	  document.getElementById("Βιογραφία").style.display = "none";
+	  document.getElementById("Φωτογραφίες").style.display = "none";
+	  document.getElementById("Έργα").style.display = "none";
+	  document.getElementById("Διαχείριση").style.display = "none";
+	}	
+	function Διαχείριση() {
+	  document.getElementById("Διαχείριση").style.display = "block";
+
+	  document.getElementById("Βιογραφία").style.display = "none";
+	  document.getElementById("Φωτογραφίες").style.display = "none";
+	  document.getElementById("Έργα").style.display = "none";
+	  document.getElementById("Σύνδεσμοι").style.display = "none";
+	}
+	
+	function ergo1() {
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "block";
+	  document.getElementById("arxerga").style.display = "block";
+
+	}
+	function ergo2() {
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "none";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "block";
+	  document.getElementById("arxerga").style.display = "block";
+
+	}
+	function ergo3() {
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "none";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "block";
+	  document.getElementById("arxerga").style.display = "block";
+
+	}
+	function ergo4() {
+	  document.getElementsByClassName("ergacontainer")[0].style.display = "none";
+	  document.getElementsByClassName("ergo1container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo2container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo3container")[0].style.display = "none";
+	  document.getElementsByClassName("ergo4container")[0].style.display = "block";
+	  document.getElementById("arxerga").style.display = "block";
+
+	}
+	function style1911() {
+	  document.getElementById("p1911").style.textDecoration  = "underline";
+	  
+	  document.getElementById("p1979").style.textDecoration  = "none";
+	  document.getElementById("p1966").style.textDecoration  = "none";
+	  document.getElementById("p1978").style.textDecoration  = "none";
+	  document.getElementById("p2010").style.textDecoration  = "none";
+
+	}
+	function style1979() {
+	  document.getElementById("p1979").style.textDecoration  = "underline";
+	  
+	  document.getElementById("p1911").style.textDecoration  = "none";
+	  document.getElementById("p1978").style.textDecoration  = "none";
+	  document.getElementById("p1966").style.textDecoration  = "none";
+	  document.getElementById("p2010").style.textDecoration  = "none";
+
+	}
+	
+
+	</script>
+	
+<div class="grid-container">
+<body onload="Βιογραφία();">
+	<div class="item1">
+		<ul>
+		  <li><a onclick="Βιογραφία()">Βιογραφία</a></li>
+		  <li><a onclick="Φωτογραφίες()">Φωτογραφίες</a></li>
+		  <li><a onclick="Έργα()">Έργα</a></li>
+		  <li><a onclick="Σύνδεσμοι()">Σύνδεσμοι</a></li>
+		  <li><a onclick="Διαχείριση()">Διαχείριση</a></li>
+		</ul>
+	</div>
+	<div class="item2">
+		<div class="sidenav">
+		  <a id="arxbio" onclick="Βιογραφία()">&larr;</a>
+		  <a id="1911" onclick="style1911()">1911</a>
+		  <a id="1979" onclick="style1979()">1979</a>
+
+		  
+		  <a id="arxphoto" onclick="Φωτογραφίες()">&larr;</a>
+		  <a id="photo1" onclick="Βιογραφία()">Gallery1</a>
+		  <a id="photo2" onclick="Φωτογραφίες()">Gallery2</a>
+		  
+		  <a id="arxerga" onclick="Έργα()">&larr;</a>
+		  <a id="ergo1" onclick="ergo1()">Έργο 1</a>
+		  <a id="ergo2" onclick="ergo2()">Έργο 2</a>
+		  <a id="ergo3" onclick="ergo3()">Έργο 3</a>
+		  <a id="ergo4" onclick="ergo4()">Έργο 4</a>
+
+		</div>
+	</div>
+	<div class="item3">
+		<section id="Βιογραφία">
+			<center><h1>Ο Βίος του Οδυσσέα Ελύτη</h1></center>
+			<div class="bioarx">
+				<img src="elytis-13314-portrait-medium.jpg" /> <p id="p1911">Ο Οδυσσέας Ελύτης (πραγματικό όνομα: Οδυσσέας Αλεπουδέλης) (Ηράκλειο Κρήτης, 2 Νοεμβρίου 1911 - Αθήνα, 18 Μαρτίου 1996), ήταν ένας από τους σημαντικότερους Έλληνες ποιητές, μέλος της λογοτεχνικής γενιάς του '30.</p> <p id="p1979">Βραβεύτηκε το 1960 με το Κρατικό Βραβείο Ποίησης και το 1979 με το βραβείο Νόμπελ Λογοτεχνίας, ο δεύτερος και τελευταίος μέχρι σήμερα Έλληνας που τιμήθηκε με βραβείο Νόμπελ Λογοτεχνίας. Γνωστότερα ποιητικά του έργα είναι τα Άξιον εστί, ο Ήλιος ο πρώτος και οι Προσανατολισμοί. Διαμόρφωσε ένα προσωπικό ποιητικό ιδίωμα και θεωρείται ένας από τους ανανεωτές της ελληνικής ποίησης. Πολλά ποιήματά του μελοποιήθηκαν, ενώ συλλογές του έχουν μεταφραστεί μέχρι σήμερα σε πολλές ξένες γλώσσες. Το έργο του περιλαμβάνει ακόμα μεταφράσεις ποιητικών και θεατρικών έργων. Υπήρξε μέλος της Διεθνούς Ένωσης Κριτικών Έργων Τέχνης και της Ευρωπαϊκής Εταιρείας Κριτικής, αντιπρόσωπος στις Rencontres Internationales της Γενεύης και Incontro Romano della Cultura της Ρώμης.</p>
+			</div>
+		</section>
+		<section id="Φωτογραφίες">
+			<center><h1>Φωτογραφίες</h1></center>
+		   <div class="cards">
+			  <img class="item" src="photo1.jpg" alt="Example image">
+			  <img class="item" src="photo2.jpg" alt="Example image">
+			  <img class="item" src="photo3.jpg" alt="Example image">
+			  <img class="item" src="photo4.jpg" alt="Example image">
+			  <img class="item" src="photo5.jpg" alt="Example image">
+			  <img class="item" src="photo6.jpg" alt="Example image">    			  
+		   </div>
+		</section>
+		<section id="Έργα">
+			<center><h1>Έργα</h1></center>
+				<div class="ergacontainer">
+				  <div class="box">
+					<img src="photo1.jpg">
+					<span>Προσανατολισμοί</span>
+				  </div>
+				  <div class="box">
+					<img src="photo2.jpg">
+					<span>Ήλιος Ο Πρώτος</span>
+				  </div>
+				  <div class="box">
+					<img src="photo5.jpg">
+					<span>’ξιον εστί.</span>
+				  </div>
+				  <div class="box">
+					<img src="photo6.jpg">
+					<span>Δυτικά της λύπης</span>
+				  </div>
+				</div>
+				<div class="ergo1container">
+					<img src="photo1.jpg" /> Ο έρωτας , Το αρχιπέλαγος , Κι η πρώρα των αφρών του , Κι οι γλάροι των ονείρων του Στο πιο ψηλό κατάρτι του ο ναύτης ανεμίζει Ένα τραγούδι , Το τραγούδι του Κι οι ορίζοντες του ταξιδιού του Κι η ηχώ της νοσταλγίας του Στον πιο βρεμένο βράχο της η αρραβωνιαστικιά προσμένει Ένα καράβι , Ο έρωτας Το καράβι του Κι η αμεριμνησία των μελτεμιών του Κι ο φλόκος της ελπίδας του Στον πιο ελαφρό κυματισμό του ένα νησί λικνίζει Τον ερχομό[...].
+				</div>
+				<div class="ergo2container">
+					<img src="photo2.jpg" /> Δεν ξέρω πια τη νύχτα φοβερή ανωνυμία θανάτου Στον μυχό της ψυχής μου αράζει στόλος άστρων. Έσπερε φρουρέ για να λάμπεις πλάι στο ουρανί Αεράκι ενός νησιού που με ονειρεύεται Ν' αναγγέλλω την αυγή από τα ψηλά του βράχιαΤα δυο μάτια μου αγκαλιά σε πλέουνε με το άστρο  Της σωστής μου καρδιάς: Δεν ξέρω πια τη νύχτα.Δεν ξέρω πια τα ονόματα ενός κόσμου που μ' αρνιέται Καθαρά διαβάζω τα όστρακα τα φύλλα τ' άστρα Η έχτρα μου είναι περιττή στους δρόμους τ' ουρανού Εξόν κι αν είναι τ' όνειρο που με ξανακοιτάζει Με δάκρυα να διαβαίνω της αθανασίας τη θάλασσα Έσπερε κάτω απ' την καμπύλη της χρυσής φωτιάς σου Τη νύχτα που είναι μόνο νύχτα δεν την ξέρω πια[...].
+				</div>		
+				<div class="ergo3container">
+					<img src="photo5.jpg" /> Το Άξιον Εστί είναι μια ποιητική σύνθεση που γράφτηκε από τον Οδυσσέα Ελύτη και κυκλοφόρησε το 1959. Εν πολλοίς ήταν αυτό που χάρισε στον δημιουργό του το Βραβείο Νόμπελ Λογοτεχνίας το 1979, κάνοντάς τον έτσι τον 2ο Έλληνα που τιμήθηκε με το ανώτερο βραβείο της παγκόσμιας Λογοτεχνίας (είχε προηγηθεί ο Γιώργος Σεφέρης το 1963).Τα μέρη του Άξιον Εστί είναι τα ακόλουθα: Η Γένεσις, Εισαγωγή – Τότε είπε τοτε Ιδού εγώ λοιπόν , Η πορεία προς το μέτωπο , Ένα το χελιδόνι , Τα θεμέλια μου στα βουνά , Με το λύχνο του άστρου , Η Μεγάλη Έξοδος , Της Δικαιοσύνης , Ήλιε Νοητέ , Ναοί στο σχήμα του ουρανού (ορχηστρικό) , Της αγάπης αίματα , Ναοί στο σχήμα του ουρανού , Προφητικόν , Ανοίγω το στόμα μου , Σε χώρα μακρινή , Το Δοξαστικόν σήμα[...].
+				</div>		
+				<div class="ergo4container">
+					<img src="photo6.jpg" /> Ελεύθερα στο πλάι μου τρέχουν τ'αμπέλια κι αχαλίνωτος Μένει ό ουρανός. Πυρκαγιές ανταλλάσσουνε τα κουκουνάρια κι ένας Όνος φευγάτος πάει ψηλά τον ανήφορο για λίγο σύννεφο. Κάτι πρέπει να γίνεται του αγίου Ηρακλείτου ανήμερα Πού μήτε οί ρίνες διαγιγνώσκουν Είναι οί ζαβολιές του ανυπόδητου ανέμου πού αρπάζεται άπ'την άκρη. Του νυχτικού της μοίρας και πάει να μας αφήσει στων αίγάγρων το ύπαιθρο έκθετους Στά κρυφά φεύγω με δλα τα κλοπιμαία στο νου μου Για μιαν άπ'τη ν αρχή ζωή άπροσκύνητη. Χωρίς κεριά χωρίς πολυελαίους.Με μόνο μια στη θέση αδάμαντος βέρα χρυσή ανεμώνη Πασπατευτά πού πάει; Και ζητώντας τί; Ό μισός της σελήνης μας ίσκιος. Ανάγκη πάσα να καθησυχάζεις είναι ως και τα μνήματα Εάν ομοεθνών ή δχι άδιάφορον. Το πάν είναι Ή και από τα λαγωνικά χαμένη οσμή της γης με ρείκια σφένταμα και κρόμμυα[...].
+				</div>						
+		</section>
+		<section id="Σύνδεσμοι">
+			<h1>Σύνδεσμοι</h1>
+				<p>
+					https://el.wikipedia.org/wiki/Οδυσσέας_Ελύτης#Εργογραφία
+				</p>
+		</section>
+		<section id="Διαχείριση">
+			<h1>Διαχείριση</h1>
+			<form>
+				<div class="container"> 
+					<label>Username : </label> 
+					<input type="text" placeholder="Enter Username" name="username" required>
+					<label>Password : </label> 
+					<input type="password" placeholder="Enter Password" name="password" required>
+					<center><button type="submit">Login</button> </center>
+				</div> 
+			</form>   
+		</section>
+	</div>  
+</div>
+
+</body>
+</html>
